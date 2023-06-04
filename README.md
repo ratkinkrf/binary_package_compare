@@ -7,9 +7,9 @@
  2 - packages which are in 2nd branch but not in 1st
  3 - packages from 1st branch where version is higher then in 2nd branch
  
- To run program compile all files with  c++ compiler
- std=c++17 required
- after compiling run program with 3 arguments
+ To run program download libmyjsonlib.so and locate it somewhere(ex usr/local/lib)
+ compile main with  c++ compiler  std=c++17 required
+ set path for library and run
   1 - 1st branch
   2 - 2nd branch
   3- arch
