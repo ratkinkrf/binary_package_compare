@@ -7,9 +7,16 @@
  2 - packages which are in 2nd branch but not in 1st
  3 - packages from 1st branch where version is higher then in 2nd branch
  
- To run program download libmyjsonlib.so and locate it somewhere(ex usr/local/lib)
- compile main with  c++ compiler  std=c++17 required
- set path for library and run
+ cd to directory where CMakeLists and /src /include located 
+ to seprate build files from source files make new directory and run cmake from there
+ example
+ mkdir build
+ cd build
+ cmake ..
+ make
+./BinaryCompare p9 p10 x86_64
+
+arguments are:
   1 - 1st branch
   2 - 2nd branch
   3- arch
